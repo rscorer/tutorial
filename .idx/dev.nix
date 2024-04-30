@@ -2,6 +2,7 @@
   channel = "unstable";
   packages = [
     pkgs.nodejs_21
+    nodejs.pkgs.pnpm
     nodejs.pkgs.remix
   ];
   idx.extensions = [
